@@ -1,0 +1,75 @@
+{
+    "questions": [
+      {
+        "question": "How many days did the Jukto Front government remain in power?",
+        "options": ["56 days", "100 days", "30 days", "90 days"],
+        "answer": "56 days"
+      },
+      {
+        "question": "What was the primary reason given by the Pakistan government for dismissing the Jukto Front government?",
+        "options": [
+          "Economic mismanagement",
+          "Political instability",
+          "A riot between Bengalis and non-Bengalis",
+          "Widespread corruption"
+        ],
+        "answer": "A riot between Bengalis and non-Bengalis"
+      },
+      {
+        "question": "Which party's leader, A.K. Fazlul Huq, became the Chief Minister after the Jukto Front's victory?",
+        "options": ["Awami League", "Krishok Sramik Party", "Nezame Islam", "Ganotantri Dal"],
+        "answer": "Krishok Sramik Party"
+      },
+      {
+        "question": "What was one of the 21-point demands of the Jukto Front?",
+        "options": [
+          "Establishment of a monarchy",
+          "Separation from Pakistan",
+          "Nationalization of the jute trade",
+          "Banning of the Bengali language"
+        ],
+        "answer": "Nationalization of the jute trade"
+      },
+      {
+        "question": "In 1966, what percentage of positions in the Pakistan president's secretariat were held by Bengalis?",
+        "options": ["81%", "19%", "50%", "30%"],
+        "answer": "19%"
+      },
+      {
+        "question": "According to the text, what form of government was proposed in the 6-point demands?",
+        "options": [
+          "Military dictatorship",
+          "Monarchy",
+          "Parliamentary form under a federal system",
+          "Presidential system"
+        ],
+        "answer": "Parliamentary form under a federal system"
+      },
+      {
+        "question": "Who is credited as the proponent of the historic 6-point program?",
+        "options": ["A.K. Fazlul Huq", "Sheikh Mujibur Rahman", "Mohammad Ali Jinnah", "Ayub Khan"],
+        "answer": "Sheikh Mujibur Rahman"
+      },
+      {
+        "question": "What event led to President Iskander Mirza declaring martial law in 1958?",
+        "options": [
+          "A widespread famine",
+          "A major earthquake",
+          "A brawl in the provincial assembly",
+          "The assassination of a political leader"
+        ],
+        "answer": "A brawl in the provincial assembly"
+      },
+      {
+        "question": "In the 1970 general election, how many seats did the Awami League win in the central parliament?",
+        "options": ["167", "298", "9", "223"],
+        "answer": "167"
+      },
+      {
+        "question": "What date is observed as Martyr's Day in Bangladesh?",
+        "options": ["March 26th", "December 16th", "February 21st", "May 16th"],
+        "answer": "February 21st"
+      }
+    ]
+  }
+  
