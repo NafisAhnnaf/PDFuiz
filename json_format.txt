@@ -1,0 +1,14 @@
+{
+    "question_number":{
+        "question": "...",
+                "options": [
+                    "...",
+                    "...",
+                    "...",
+                    "..."
+                ],
+                "answer": "..."
+    }
+}
+
+give me {number_of_questions} {question_type} type questions from the pdf. Follow the given structure in your response
