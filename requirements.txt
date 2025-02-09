@@ -1,0 +1,13 @@
+pdf2image
+dotenv
+google-cloud
+google-cloud-documentai
+langchain
+langchain-community
+langchain-core
+langchain_google_genai
+sentence-transformers
+torch
+langchain_chroma
+langchain_google_vertexai
+google_crc32c
