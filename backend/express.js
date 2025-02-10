@@ -3,8 +3,8 @@ const cors = require('cors');
 const multer = require('multer');
 const fs = require('fs');
 
-const host = "192.168.0.100";
-const port = 8000;
+const host = '0.0.0.0';
+const PORT = process.env.PORT || 8000;
 
 const app = express();
 app.use(cors());
@@ -72,6 +72,6 @@ app.get('/getQues', (req, res) => {
     });
 });
 
-app.listen(port, host, () => {
-    console.log(`Server running at http://${host}:${port}`);
+app.listen(PORT, host, () => {
+    console.log(`Server running at http://${host}:${PORT}`);
 });
