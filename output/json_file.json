@@ -1,1 +1,104 @@
-"{\n  \"questions\": [\n    {\n      \"question\": \"What is the atmospheric boundary between the troposphere and the stratosphere called?\",\n      \"options\": [\"Stratopause\", \"Tropopause\", \"Mesopause\", \"Ionosphere\"],\n      \"answer\": \"Tropopause\"\n    },\n    {\n      \"question\": \"Approximately what is the depth of the ozone level in the atmosphere?\",\n      \"options\": [\"5-10 km\", \"12-16 km\", \"20-25 km\", \"30-35 km\"],\n      \"answer\": \"12-16 km\"\n    },\n    {\n      \"question\": \"What gas is primarily responsible for absorbing ultraviolet rays from the sun?\",\n      \"options\": [\"Carbon dioxide\", \"Nitrogen\", \"Oxygen\", \"Ozone\"],\n      \"answer\": \"Ozone\"\n    },\n    {\n      \"question\": \"What is the approximate average temperature on the Earth's surface?\",\n      \"options\": [\"0\u00b0C\", \"13.90\u00b0C\", \"25\u00b0C\", \"30\u00b0C\"],\n      \"answer\": \"13.90\u00b0C\"\n    },\n    {\n      \"question\": \"What is the primary reason given for the Earth's habitability?\",\n      \"options\": [\"Its distance from the Sun\", \"Its large moon\", \"Its ozone layer\", \"All of the above\"],\n      \"answer\": \"All of the above\"\n    },\n    {\n      \"question\": \"What are two significant satellites of Neptune?\",\n      \"options\": [\"Ganymede and Callisto\", \"Titan and Enceladus\", \"Triton and Nereid\", \"Io and Europa\"],\n      \"answer\": \"Triton and Nereid\"\n    },\n    {\n      \"question\": \"What is the most abundant gas in Earth's atmosphere?\",\n      \"options\": [\"Oxygen\", \"Carbon Dioxide\", \"Nitrogen\", \"Hydrogen\"],\n      \"answer\": \"Nitrogen\"\n    },\n    {\n      \"question\": \"What is the approximate average depth of the troposphere?\",\n      \"options\": [\"5 km\", \"13 km\", \"20 km\", \"30 km\"],\n      \"answer\": \"13 km\"\n    },\n    {\n      \"question\": \"What is the name given to the core of the Earth based on its composition of nickel and iron?\",\n      \"options\": [\"Sial\", \"Sima\", \"Nife\", \"Basalt\"],\n      \"answer\": \"Nife\"\n    },\n    {\n      \"question\": \"Which layer of the Earth's interior is believed to be primarily composed of silicon and magnesium?\",\n      \"options\": [\"Core\", \"Crust\", \"Mantle\", \"Troposphere\"],\n      \"answer\": \"Mantle\"\n    },\n    {\n      \"question\": \"What is the approximate radius of the Earth's core?\",\n      \"options\": [\"1000 km\", \"2000 km\", \"3486 km\", \"6371 km\"],\n      \"answer\": \"3486 km\"\n    },\n    {\n      \"question\": \"What is the main component of Venus's atmosphere?\",\n      \"options\": [\"Oxygen\", \"Nitrogen\", \"Carbon Dioxide\", \"Hydrogen\"],\n      \"answer\": \"Carbon Dioxide\"\n    },\n    {\n      \"question\": \"Which planet is known as the evening star and vesper?\",\n      \"options\": [\"Mars\", \"Jupiter\", \"Venus\", \"Mercury\"],\n      \"answer\": \"Venus\"\n    },\n    {\n      \"question\": \"How many natural satellites does Venus have?\",\n      \"options\": [\"1\", \"Many\", \"0\", \"67\"],\n      \"answer\": \"0\"\n    },\n    {\n      \"question\": \"What is the name of the largest planet in our solar system?\",\n      \"options\": [\"Saturn\", \"Earth\", \"Mars\", \"Jupiter\"],\n      \"answer\": \"Jupiter\"\n    },\n    {\n      \"question\": \"What is the approximate distance of the Earth from the Sun?\",\n      \"options\": [\"4.3 crore km\", \"10.8 crore km\", \"150 million km\", \"77.8 crore km\"],\n      \"answer\": \"150 million km\"\n    },\n    {\n      \"question\": \"What is the name of the imaginary line that runs through Greenwich, London?\",\n      \"options\": [\"Equator\", \"Tropic of Cancer\", \"Prime Meridian\", \"International Date Line\"],\n      \"answer\": \"Prime Meridian\"\n    },\n    {\n      \"question\": \"A difference of one degree of meridian results in a time difference of:\",\n      \"options\": [\"1 minute\", \"2 minutes\", \"4 minutes\", \"6 minutes\"],\n      \"answer\": \"4 minutes\"\n    },\n    {\n      \"question\": \"The period of time when faint light exists before sunrise or after sunset is called:\",\n      \"options\": [\"Midday\", \"Twilight\", \"Noon\", \"Midnight\"],\n      \"answer\": \"Twilight\"\n    },\n    {\n      \"question\": \"What is the name of the imaginary line used to solve date and time discrepancies across the International Date Line?\",\n      \"options\": [\"Equator\", \"Prime Meridian\", \"International Date Line\", \"Arctic Circle\"],\n      \"answer\": \"International Date Line\"\n    }\n  ]\n}"
+{
+    "questions": [
+      {
+        "question": "What is the atmospheric boundary between the troposphere and the stratosphere called?",
+        "options": ["Stratopause", "Tropopause", "Mesopause", "Ionosphere"],
+        "answer": "Tropopause"
+      },
+      {
+        "question": "Approximately what is the depth of the ozone level in the atmosphere?",
+        "options": ["5-10 km", "12-16 km", "20-25 km", "30-35 km"],
+        "answer": "12-16 km"
+      },
+      {
+        "question": "What gas is primarily responsible for absorbing ultraviolet rays from the sun?",
+        "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Ozone"],
+        "answer": "Ozone"
+      },
+      {
+        "question": "What is the approximate average temperature on the Earth's surface?",
+        "options": ["0°C", "13.90°C", "25°C", "30°C"],
+        "answer": "13.90°C"
+      },
+      {
+        "question": "What is the primary reason given for the Earth's habitability?",
+        "options": ["Its distance from the Sun", "Its large moon", "Its ozone layer", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What are two significant satellites of Neptune?",
+        "options": ["Ganymede and Callisto", "Titan and Enceladus", "Triton and Nereid", "Io and Europa"],
+        "answer": "Triton and Nereid"
+      },
+      {
+        "question": "What is the most abundant gas in Earth's atmosphere?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "answer": "Nitrogen"
+      },
+      {
+        "question": "What is the approximate average depth of the troposphere?",
+        "options": ["5 km", "13 km", "20 km", "30 km"],
+        "answer": "13 km"
+      },
+      {
+        "question": "What is the name given to the core of the Earth based on its composition of nickel and iron?",
+        "options": ["Sial", "Sima", "Nife", "Basalt"],
+        "answer": "Nife"
+      },
+      {
+        "question": "Which layer of the Earth's interior is believed to be primarily composed of silicon and magnesium?",
+        "options": ["Core", "Crust", "Mantle", "Troposphere"],
+        "answer": "Mantle"
+      },
+      {
+        "question": "What is the approximate radius of the Earth's core?",
+        "options": ["1000 km", "2000 km", "3486 km", "6371 km"],
+        "answer": "3486 km"
+      },
+      {
+        "question": "What is the main component of Venus's atmosphere?",
+        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+        "answer": "Carbon Dioxide"
+      },
+      {
+        "question": "Which planet is known as the evening star and vesper?",
+        "options": ["Mars", "Jupiter", "Venus", "Mercury"],
+        "answer": "Venus"
+      },
+      {
+        "question": "How many natural satellites does Venus have?",
+        "options": ["1", "Many", "0", "67"],
+        "answer": "0"
+      },
+      {
+        "question": "What is the name of the largest planet in our solar system?",
+        "options": ["Saturn", "Earth", "Mars", "Jupiter"],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "What is the approximate distance of the Earth from the Sun?",
+        "options": ["4.3 crore km", "10.8 crore km", "150 million km", "77.8 crore km"],
+        "answer": "150 million km"
+      },
+      {
+        "question": "What is the name of the imaginary line that runs through Greenwich, London?",
+        "options": ["Equator", "Tropic of Cancer", "Prime Meridian", "International Date Line"],
+        "answer": "Prime Meridian"
+      },
+      {
+        "question": "A difference of one degree of meridian results in a time difference of:",
+        "options": ["1 minute", "2 minutes", "4 minutes", "6 minutes"],
+        "answer": "4 minutes"
+      },
+      {
+        "question": "The period of time when faint light exists before sunrise or after sunset is called:",
+        "options": ["Midday", "Twilight", "Noon", "Midnight"],
+        "answer": "Twilight"
+      },
+      {
+        "question": "What is the name of the imaginary line used to solve date and time discrepancies across the International Date Line?",
+        "options": ["Equator", "Prime Meridian", "International Date Line", "Arctic Circle"],
+        "answer": "International Date Line"
+      }
+    ]
+  }
