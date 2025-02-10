@@ -2,7 +2,11 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { HashLoader } from 'react-spinners';
-const api_base = import.meta.env.backend;
+
+
+const backend = "https://pdfuiz-backend.onrender.com";
+
+
 const Processing = () => {
     const navigate = useNavigate();
     const location = useLocation();
@@ -13,7 +17,7 @@ const Processing = () => {
     const handleProcessing = async () => {
         setIsProcessing(true);
         try {
-            const res = await axios.get(`http://192.168.0.100:8000/getQues`, {
+            const res = await axios.get(`${backend}/getQues`, {
                 headers: { "Content-Type": "application/json" }
             });
             console.log(res.data);

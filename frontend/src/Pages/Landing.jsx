@@ -4,7 +4,7 @@ import Button from '../Components/Button';
 import axios from 'axios';
 import pdfpic from '../assets/pdfPic.png';
 
-const api_base = import.meta.env.backend;
+const backend = "https://pdfuiz-backend.onrender.com";
 
 const Landing = () => {
     
@@ -97,7 +97,7 @@ const Landing = () => {
             dat.append("dur", dur);
             console.log(dat);
             try {
-                axios.post(`http://192.168.0.100:8000/upload`, dat, {
+                axios.post(`${backend}/upload`, dat, {
                     headers: {'Content-Type': 'multipart/form-data'}
                 }).
                 then((res)=>console.log(res.data)).
