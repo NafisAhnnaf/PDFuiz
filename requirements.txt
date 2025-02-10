@@ -1,6 +1,6 @@
 pdf2image
 dotenv
-google-cloud
+google-cloud-aiplatform
 google-cloud-documentai
 langchain
 langchain-community
