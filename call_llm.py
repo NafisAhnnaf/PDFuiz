@@ -100,7 +100,7 @@ def query_rag(total_question: int, question_type: str):
 
     # Write the data to a JSON file
     with open(output_file_path, "w", encoding="utf-8") as json_file:
-        json.dump(response_data, json_file, indent=4)
+      json_file.write(str(response_data))
 
     print(f"Response data saved to {output_file_path}")
 
