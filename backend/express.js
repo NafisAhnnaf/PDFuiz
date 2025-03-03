@@ -1,10 +1,13 @@
 const express = require('express');
+
 const cors = require('cors');
 const multer = require('multer');
 const fs = require('fs');
 
-const host = '0.0.0.0';
-const PORT = process.env.PORT || 8000;
+require('dotenv').config();
+
+const host = process.env.HOST || 'localhost';
+const PORT = parseInt(process.env.PORT) || 8000;
 
 const app = express();
 app.use(cors());

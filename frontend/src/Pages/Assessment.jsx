@@ -10,10 +10,10 @@ const Assessment = () => {
     const [selectedOption, setSelectedOption] = useState(null);
     const [countQ, setCountQ] = useState(0);
     const location = useLocation();
-
     useEffect(() => {
         if (location.state) {
             setQues(location.state.questions);
+            localStorage.setItem('AnswerScript', JSON.stringify(ques));
         }
     }, [location.state]);
 
@@ -28,9 +28,9 @@ const Assessment = () => {
             const updatedQues = prevQ.map((q, i) => 
                 i === countQ ? { ...q, selectedOpt: selectedOption } : q
             );
-    
-            if (countQ === updatedQues.length - 1) {
-                navigate('/Result', { state: updatedQues });
+            localStorage.setItem('AnswerScript', JSON.stringify(updatedQues));
+            if (countQ === updatedQues.length - 1) {   
+                navigate('/Result');
                 return updatedQues;
             }
     
@@ -45,7 +45,7 @@ const Assessment = () => {
     return (
         <div className='flex h-screen bg-gray-900 flex-col justify-center items-center'>
             <div className='fixed top-10 mb-5'>
-                <TimerProgressBar duration={60}/>
+                <TimerProgressBar navigator={"Result"} duration={10}/>
             </div>
             {ques?.length > 0 && (
                 <div className='md:w-[400px]  sm:w-[300px] p-4 text-lg bg-gray-700 rounded-xl text-white'>

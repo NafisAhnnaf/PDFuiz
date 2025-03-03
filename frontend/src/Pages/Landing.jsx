@@ -4,7 +4,7 @@ import Button from '../Components/Button';
 import axios from 'axios';
 import pdfpic from '../assets/pdfPic.png';
 
-const backend = "https://pdfuiz-backend.onrender.com";
+const backend = import.meta.env.VITE_BACKEND_URL;
 
 const Landing = () => {
     
@@ -112,7 +112,7 @@ const Landing = () => {
 
     return (
         <div className='text-white flex justify-center items-center h-screen bg-gray-800'>
-            <div className='md:h-[300px] md:w-[30%] sm:h-[500px] sm:w-[90%]  bg-slate-900 rounded-xl flex align flex-col gap-6 p-12 justify-center'>
+            <div className='md:h-[300px] md:w-[20%] sm:h-[500px]  bg-slate-900 rounded-xl flex align flex-col gap-6 p-12 justify-center'>
                 <form id='pdfForm'>
                     <div className={`space-y-8 ${step===0 ? "block": "hidden"}`}>
                         <h1>Upload File</h1>

@@ -1,27 +1,33 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const TimerProgressBar = ({ duration }) => {
+const TimerProgressBar = ({ duration, navigator }) => {
   const [timeLeft, setTimeLeft] = useState(duration);
   const [progress, setProgress] = useState(0);
+  const navigate = useNavigate();
 
+  // Start the countdown timer when the component mounts
   useEffect(() => {
-    // If there's no time left, stop the interval
-    if (timeLeft <= 0) return;
+    if (timeLeft <= 0) {
+      navigate(`/${navigator}`);
+      return;
+    }
 
     const interval = setInterval(() => {
       setTimeLeft((prevTime) => {
         if (prevTime <= 0) {
           clearInterval(interval);
+          navigate(`/${navigator}`);  // Navigate when time is up
           return 0;
         }
         return prevTime - 1;
       });
     }, 1000); // Decrease every second
 
-    return () => clearInterval(interval); // Clean up the interval on component unmount
-  }, [timeLeft]);
+    return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, [timeLeft, navigator, navigate]); // Added necessary dependencies
 
-  // Calculate progress percentage
+  // Update the progress bar based on timeLeft
   useEffect(() => {
     setProgress(((duration - timeLeft) / duration) * 100);
   }, [timeLeft, duration]);

@@ -3,8 +3,7 @@ import axios from 'axios';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { HashLoader } from 'react-spinners';
 
-
-const backend = "https://pdfuiz-backend.onrender.com";
+const backend = import.meta.env.VITE_BACKEND_URL;
 
 
 const Processing = () => {
